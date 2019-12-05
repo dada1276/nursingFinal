@@ -1,0 +1,111 @@
+.right-button-margin{
+    margin: 0 0 1em 0;
+    overflow: hidden;
+}
+ 
+.thumb-image {
+    float:left;
+    width: 150px;
+    height: 150px;
+    margin:.6em 1.2em 0 0;
+    position:relative;
+}
+ 
+.thumb-image .delete-image {
+    position:absolute;
+    top:-10px;
+    right:-10px;
+}
+ 
+.thumb-wrapper{
+    border:thin solid #999;
+    float:left;
+    width: 150px;
+    height: 150px;
+    margin:.6em 1.2em 0 0;
+    position:relative;
+}
+ 
+.width-30-percent{ width:30%; }
+.margin-left-1em{ margin:0 1em 0 0; }
+.width-20-em{ width: 20em; }
+.width-13-em{ width: 13em; }
+.margin-zero{ margin:0; }
+.padding-zero{ padding:0; }
+.btn-margin-right{ margin-right:.5em; }
+.margin-bottom-1em{ margin-bottom:1em; }
+.left-margin{ margin:0 .5em 0 0; }
+.delete-image img{ width:25px; }
+.thumb-wrapper img{ width:130px; height:130px; margin:10px; }
+#html-btn { display:none; }
+.delete-pdf{ margin-left:.5em; }
+.delete-pdf img{ width:20px; cursor:pointer; }
+.pdf-item{ padding:0 0 1em 0; }
+
+
+
+.navbar {
+    background-color: #00467e;
+}
+
+.au_name {
+    color: white;
+    font-size: 30px;
+    font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
+
+    
+}
+.glyphicon {
+    color: #00467e;
+    font-size: 30px;
+}
+.nav.navbar-nav.navbar-right{
+    background-color: #46aa42;
+    font-size: 20px;
+
+}
+.nav.navbar-nav.navbar-right a{
+    color: #00467e;
+}
+.table tr{
+    text-align: center;
+}
+.table th{
+    background-color: #4682B4;
+    color: white;
+    text-align: center;
+}
+.table tr:nth-child(even){
+    background-color: #B0C4DE
+}
+.table tr:nth-child(odd){
+    background-color: #B0E0E6
+}
+.table tr{
+    font-size: 20px;
+    color: black;
+}
+
+.crud_actions a{
+   margin: 5px;
+   border: none;
+}
+.create-user-admin{
+    margin-bottom: 20px;
+    font-size: 30px;
+    background-color: #00467e;
+}
+.view {
+    background-color: #6593F5;
+}
+.update {
+        background-color: #2d5f9a;
+}
+.delete {
+    background-color: #cd252b;
+}
+.columns-for-updates {
+    background-color: #2d5f9a;
+    color: white;
+    font-size: 20px;
+}
